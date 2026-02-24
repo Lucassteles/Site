@@ -78,23 +78,22 @@
 //console.log (9 !== "9"); 
 
 
-//11- Operadores lógicos 
+// 11 - Operadores lógicos
 
-console.log(true && true) 
+console.log(true && true);           // true
+console.log(true && false);          // false
 
-console.log( true && false); 
+console.log(5 > 2 && 5 < 10);        // true
 
-console.log( 5 > 2 && < 10); 
+console.log(5 > 2 && "Matheus" === 1);  // false
 
-console.log( 5 > 2 && "Matheus" === 1); 
+console.log(5 > 2 || "Matheus" === 1);  // true
 
-console.log( 5 > 2 && || "Matheus" === 1); 
- 
-console.log( 5 > 2 && || 5 > 100); 
+console.log(5 > 2 || 5 > 100);          // true
 
-console.log(!true); 
+console.log(!true);                    // false
 
-console.log(!5 > 2); 
+console.log(!(5 > 2));                 // false 
 
 //12 - empty values 
 console.log(typeof null, typeof undefined); 
